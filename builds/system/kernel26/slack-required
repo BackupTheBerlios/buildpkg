@@ -1,0 +1,3 @@
+glibc >= 2.3.6
+mkinitrd >= 1.0
+module-init-tools >= 3.2.2

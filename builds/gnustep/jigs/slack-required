@@ -1,0 +1,4 @@
+gnustep-base >= 1.12.0
+gnustep-back >= 0.10.3
+gnustep-gui >= 0.10.3
+gnustep-make >= 1.12.0
