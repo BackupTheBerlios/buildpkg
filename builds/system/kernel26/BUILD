@@ -15,6 +15,7 @@ build() {
 	make INSTALL_MOD_PATH=$PKG modules_install || exit
 	cp boot/arch/${_arch}/bzImage $PKG/boot/vmlinuz-${pkgver}
 	cp boot/arch/${_arch}/System.map $PKG/boot/System.map-${pkgver}
+	make clean
 
 	cd $TMP
 	mv linux-${pkgver} $PKG/usr/src/linux-${pkgver}
