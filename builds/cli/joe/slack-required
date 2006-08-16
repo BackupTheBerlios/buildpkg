@@ -1,3 +1,0 @@
-ncurses >= 5.0
-glibc >= 2.3.0
-gpm >= 1.10
