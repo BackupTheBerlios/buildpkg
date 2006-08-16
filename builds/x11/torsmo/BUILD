@@ -1,7 +1,7 @@
 pkgname=torsmo
 pkgver=0.18
 src="http://dl.sourceforge.net/sourceforge/torsmo/$pkgname-$pkgver.tar.gz"
-build=1dxt
+build=2jtn
 
 build() {
 	cd $pkgname-$pkgver
@@ -14,4 +14,6 @@ build() {
 
 	make || exit
 	make DESTDIR=${PKG} install
+	mkdir -p ${PKG}/etc
+	cp torsmorc.sample ${PKG}/etc
 }
