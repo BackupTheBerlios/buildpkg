@@ -1,7 +1,0 @@
-gnustep-make >= 1.12.0
-gnustep-base >= 1.12.0
-ffcall >= 1.10
-libtiff >= 3.8
-libpng >= 1.2.10
-libjpeg >= 6b
-

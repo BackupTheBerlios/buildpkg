@@ -1,8 +1,0 @@
-libid3tag >= 0.15.0b
-libmad >= 0.15.0b
-libvorbis >= 1.0.1
-libogg >= 1.1.0
-libflac >= 1.1.2
-audiofile >= 0.2.6
-taglib >= 1.4
-libmusicbrainz >= 2.1.2

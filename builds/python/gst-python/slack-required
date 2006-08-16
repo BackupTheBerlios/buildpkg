@@ -1,3 +1,0 @@
-python >= 2.4
-gstreamer >= 0.10.3
-gst-plugins-base >= 0.10
