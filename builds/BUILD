@@ -1,7 +1,7 @@
 pkgname=
 pkgver=
 src=""
-build=1dxt
+build=1jtn
 
 build() {
 	cd $pkgname-$pkgver
@@ -13,5 +13,5 @@ build() {
 		--program-prefix=""
 
 	make || exit
-	make DESTDIR=${PKG} install
+	make DESTDIR=${PKG} install || exit
 }
